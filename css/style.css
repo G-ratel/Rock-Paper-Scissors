@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(58, 8, 105);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: white;
+    padding: 20px;
+}
+h1 {
+    color: rgb(58, 8, 105);
+    text-align: center;
+    border: 3px solid rgb(58, 8, 105);
+}
+.score-board {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+.score div{
+    display: inline-block;
+    padding: 4px 10px;
+}
+.badge, .score-divider {
+    font-size: 30px;
+}
+.score-divider {
+    font-weight: 700;
+}
+.result {
+    text-align: center;
+    margin-top: 30px;
+}
+.result p {
+    color: white;
+    font-size: 30px;
+}
+.choices {
+    margin: 40px 0;
+    text-align: center;
+}
+.choices div {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 10px 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.choices div:hover {
+    cursor: pointer;
+    background: rgb(221, 218, 218);
+}
+
+.message {
+    margin: 40px 0;
+    text-align: center;
+}
+.message p {
+    color: white;
+    font-size: 30px;
+}
+.green-b {
+    border: 4px solid green;
+    box-shadow: 0 0 10px rgb(1, 83, 1);
+}
+.red-b {
+    border: 4px solid red;
+    box-shadow: 0 0 10px rgb(184, 1, 1);
+}
+.grey-b {
+    border: 4px solid grey;
+    box-shadow: 0 0 10px rgb(77, 76, 76);
+}
